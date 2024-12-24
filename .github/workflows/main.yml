@@ -1,12 +1,11 @@
 # Name of workflow
-name: Lint workflow
+name: pull-request-to-main
 
 # Trigger workflow on all pull requests
 on:
   pull_request:
     branches:
-      - develop
-      - staging
+      - main
 
 # Jobs to carry out
 jobs:
